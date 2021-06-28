@@ -1,6 +1,9 @@
 #!/usr/bin/env python3 
 
 
+## Removes leading / from the frame_id of all the topics. TF2 doesn't support frames starting with /
+
+
 import rosbag
 import sys
 
