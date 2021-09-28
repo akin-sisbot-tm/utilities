@@ -32,7 +32,7 @@ with open(config_file, "r") as read_file:
                         time_diff = msg.time_ref - msg.header.stamp
                         break
 
-            print("UTC time difference: " + str(time_diff.to_sec()))
+                print("UTC time difference: " + str(time_diff.to_sec()))
 
             # Get the prefix
 

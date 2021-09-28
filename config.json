@@ -1,25 +1,25 @@
 {
     "files": [
       {
-        "name": "/home/akin/local/bags/anomaly_210728/following_210728.bag",
+        "name": "/media/akin/AkinData/bags/anomaly_210728/following_210728.bag",
         "prefix": "following",
         "sync_to_utc": false,
         "utc_topic":"/xsens_mti/utc_time_ref"
       },
       {
-        "name": "/home/akin/local/bags/anomaly_210728/preceeding_210728.bag",
+        "name": "/media/akin/AkinData/bags/anomaly_210728/preceeding_210728.bag",
         "prefix": "preceeding",
         "sync_to_utc": false,
         "utc_topic":"/utc_time_ref"
       },
       {
-        "name": "/home/akin/local/bags/anomaly_210728/ego_210728.bag",
+        "name": "/media/akin/AkinData/bags/anomaly_210728/ego_210728.bag",
         "prefix" : "ego",
         "sync_to_utc": false,
         "utc_topic":"/xsens_mti/utc_time_ref"
       }
 
     ],
-    "output_bag": "/home/akin/local/bags/anomaly_210728/out.bag" 
+    "output_bag": "/media/akin/AkinData/bags/anomaly_210728/merged.bag" 
 
 }
